@@ -1,0 +1,34 @@
+version: '3.4'
+
+networks:
+  userapinetwork:
+
+services:
+  userapis:
+    image: ${DOCKER_REGISTRY-}userapis:v5
+    container_name: UserAPIsContainer
+    build:
+      context: .
+      dockerfile: UserAPIs/Dockerfile
+    ports:
+      - 8002:8080
+    depends_on:
+      - SqlServerDB
+    environment:
+      - DB_HOST=SqlServerDB
+      - DB_NAME=testDb
+      - DB_SA_PASSWORD=yourStrong(!)Password
+    networks:
+      - userapinetwork
+  
+  SqlServerDB:
+    container_name: SqlServerContainer
+    image: mcr.microsoft.com/mssql/server:latest
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=yourStrong(!)Password
+- 
+    networks:
+      - userapinetwork

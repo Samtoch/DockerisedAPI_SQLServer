@@ -1,0 +1,39 @@
+name: dockercompose13564489138949530989
+services:
+  SqlServerDB:
+    container_name: SqlServerContainer
+    environment:
+      ACCEPT_EULA: "Y"
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+  userapis:
+    build:
+      context: C:\c#Projects\DockerisedAPI_SQLServer
+      dockerfile: UserAPIs/Dockerfile
+    container_name: UserAPIsContainer
+    depends_on:
+      SqlServerDB:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: userapis:v1
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8080
+      protocol: tcp
+    - mode: ingress
+      target: 8080
+      published: "8002"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose13564489138949530989_default

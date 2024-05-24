@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\c#Projects\\DockerisedAPI_SQLServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|c:\\c#projects\\dockerisedapi_sqlserver\\userapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|solutionrelative:userapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF75A4F-C614-4B08-A0AC-1CCE80F6B444}|docker-compose.dcproj|c:\\c#projects\\dockerisedapi_sqlserver\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9AF75A4F-C614-4B08-A0AC-1CCE80F6B444}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|c:\\c#projects\\dockerisedapi_sqlserver\\userapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|solutionrelative:userapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|c:\\c#projects\\dockerisedapi_sqlserver\\userapis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|solutionrelative:userapis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|c:\\c#projects\\dockerisedapi_sqlserver\\userapis\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|solutionrelative:userapis\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|c:\\c#projects\\dockerisedapi_sqlserver\\userapis\\userapis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A67430C-1560-4595-B457-DA0B6ED0909A}|UserAPIs\\UserAPIs.csproj|solutionrelative:userapis\\userapis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\Program.cs",
+              "RelativeDocumentMoniker": "UserAPIs\\Program.cs",
+              "ToolTip": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\Program.cs",
+              "RelativeToolTip": "UserAPIs\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:34:45.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\Dockerfile",
+              "RelativeDocumentMoniker": "UserAPIs\\Dockerfile",
+              "ToolTip": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\Dockerfile",
+              "RelativeToolTip": "UserAPIs\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-22T18:18:51.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "UserAPIs\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "UserAPIs\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:55:25.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\appsettings.json",
+              "RelativeDocumentMoniker": "UserAPIs\\appsettings.json",
+              "ToolTip": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\appsettings.json",
+              "RelativeToolTip": "UserAPIs\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T17:04:17.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\c#Projects\\DockerisedAPI_SQLServer\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\c#Projects\\DockerisedAPI_SQLServer\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-05-22T16:20:42.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAPIs.csproj",
+              "DocumentMoniker": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\UserAPIs.csproj",
+              "RelativeDocumentMoniker": "UserAPIs\\UserAPIs.csproj",
+              "ToolTip": "C:\\c#Projects\\DockerisedAPI_SQLServer\\UserAPIs\\UserAPIs.csproj",
+              "RelativeToolTip": "UserAPIs\\UserAPIs.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T16:26:54.231Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

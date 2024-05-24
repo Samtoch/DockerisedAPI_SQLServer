@@ -1,0 +1,24 @@
+name: dockercompose13564489138949530989
+services:
+  userapis:
+    build:
+      context: C:\c#Projects\DockerisedAPI_SQLServer
+      dockerfile: UserAPIs/Dockerfile
+    container_name: UserAPIsContainer
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: userapis:v2
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8080
+      protocol: tcp
+    - mode: ingress
+      target: 8080
+      published: "8002"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose13564489138949530989_default
